@@ -1,0 +1,16 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "jsx": "react",
+    "lib": ["es2016", "dom"],
+    "module": "es6",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "./dist/",
+    "rootDir": "./src/",
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "exclude": ["node_modules"]
+}
