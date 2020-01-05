@@ -4,8 +4,9 @@
   "description": "",
   "private": true,
   "scripts": {
-    "build": "npm run clean && webpack",
+    "build": "npm run clean && tsc && webpack",
     "clean": "rm -rf dist/",
+    "start": "node dist/server/app.js",
     "test": "jest"
   },
   "author": "",
@@ -13,10 +14,12 @@
   "dependencies": {
     "@types/react": "^16.9.3",
     "@types/react-dom": "^16.9.1",
+    "express": "^4.17.1",
     "react": "^16.10.1",
     "react-dom": "^16.10.1"
   },
   "devDependencies": {
+    "@types/express": "^4.17.2",
     "@types/jest": "^24.0.18",
     "@typescript-eslint/eslint-plugin": "^2.3.0",
     "@typescript-eslint/parser": "^2.3.0",
