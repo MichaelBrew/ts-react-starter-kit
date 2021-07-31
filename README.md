@@ -1,2 +1,3 @@
 # ts-react-starter-kit
-A starter kit for projects using TypeScript, Node.js (Express), React, Webpack, LESS, TSLint, and Jest.
+A starter kit for full-stack web apps using TypeScript, React, LESS, Webpack, Jest, Express.js, and ESLint.
+- TODO: React Testing Library, Sequelize (with Postgres support)
